@@ -1,6 +1,6 @@
 cc_binary(
     name = "main",
-    srcs = ["main.cpp", "GLAD/glad.h", "GLAD/glad.c", "KHR/khrplatform.h"],
+    srcs = ["main.cpp"],
     linkopts =[
       "-ldl",
       "-lpthread",
@@ -8,5 +8,6 @@ cc_binary(
     ],
     deps = [
       "@glfw//:glfw",
+      "//glad:glad"
     ],
 )

@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "GLAD/glad.h"
+#include "glad/glad.h"
 
 #include <glm/glm.hpp>
 #include <glm/gtx/transform.hpp>
